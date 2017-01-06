@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author             = { "krunal_smartsense" => "krunal.smartsensesolutions@gmail.com" }
   s.platform     = :ios, "10.0"
 
-  s.source       = { :git => "https://github.com/smartKrunal/smartServiceManagesTwo", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/smartKrunal/SmartSenseDemoCode", :tag => "1.0.0" }
 
   s.source_files  = "SmartSenseDemoCode", "SmartSenseDemoCode/**/*.{h,m,swift}"
 
