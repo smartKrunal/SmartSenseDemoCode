@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F575E5281E1FD1F3000987E0 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = F575E5261E1FD1F3000987E0 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F575E5291E1FD1F3000987E0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F575E5271E1FD1F3000987E0 /* MBProgressHUD.m */; };
+		F588DE851E1FB94900E99764 /* SmartSenseDemoCode.h in Headers */ = {isa = PBXBuildFile; fileRef = F588DE831E1FB94900E99764 /* SmartSenseDemoCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F588DF501E1FBF9800E99764 /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588DF4E1E1FBF9800E99764 /* WebServiceManager.swift */; };
+		F588DF511E1FBF9800E99764 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588DF4F1E1FBF9800E99764 /* Utility.swift */; };
+		F588DF601E1FC18500E99764 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F588DF531E1FC18500E99764 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F588DF611E1FC18500E99764 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F588DF541E1FC18500E99764 /* AFHTTPSessionManager.m */; };
+		F588DF621E1FC18500E99764 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F588DF551E1FC18500E99764 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F588DF631E1FC18500E99764 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F588DF561E1FC18500E99764 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F588DF641E1FC18500E99764 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F588DF571E1FC18500E99764 /* AFNetworkReachabilityManager.m */; };
+		F588DF651E1FC18500E99764 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = F588DF581E1FC18500E99764 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F588DF661E1FC18500E99764 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = F588DF591E1FC18500E99764 /* AFSecurityPolicy.m */; };
+		F588DF671E1FC18500E99764 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = F588DF5A1E1FC18500E99764 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F588DF681E1FC18500E99764 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F588DF5B1E1FC18500E99764 /* AFURLRequestSerialization.m */; };
+		F588DF691E1FC18500E99764 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = F588DF5C1E1FC18500E99764 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F588DF6A1E1FC18500E99764 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F588DF5D1E1FC18500E99764 /* AFURLResponseSerialization.m */; };
+		F588DF6B1E1FC18500E99764 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F588DF5E1E1FC18500E99764 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F588DF6C1E1FC18500E99764 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F588DF5F1E1FC18500E99764 /* AFURLSessionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F575E5261E1FD1F3000987E0 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F575E5271E1FD1F3000987E0 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		F588DE801E1FB94900E99764 /* SmartSenseDemoCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmartSenseDemoCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F588DE831E1FB94900E99764 /* SmartSenseDemoCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartSenseDemoCode.h; sourceTree = "<group>"; };
+		F588DE841E1FB94900E99764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F588DF4E1E1FBF9800E99764 /* WebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
+		F588DF4F1E1FBF9800E99764 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		F588DF531E1FC18500E99764 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		F588DF541E1FC18500E99764 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		F588DF551E1FC18500E99764 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		F588DF561E1FC18500E99764 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		F588DF571E1FC18500E99764 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		F588DF581E1FC18500E99764 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		F588DF591E1FC18500E99764 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		F588DF5A1E1FC18500E99764 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		F588DF5B1E1FC18500E99764 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		F588DF5C1E1FC18500E99764 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		F588DF5D1E1FC18500E99764 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		F588DF5E1E1FC18500E99764 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		F588DF5F1E1FC18500E99764 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F588DE7C1E1FB94900E99764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F575E5251E1FD1EC000987E0 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F575E5261E1FD1F3000987E0 /* MBProgressHUD.h */,
+				F575E5271E1FD1F3000987E0 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		F588DE761E1FB94900E99764 = {
+			isa = PBXGroup;
+			children = (
+				F588DE821E1FB94900E99764 /* SmartSenseDemoCode */,
+				F588DE811E1FB94900E99764 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F588DE811E1FB94900E99764 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F588DE801E1FB94900E99764 /* SmartSenseDemoCode.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F588DE821E1FB94900E99764 /* SmartSenseDemoCode */ = {
+			isa = PBXGroup;
+			children = (
+				F588DE831E1FB94900E99764 /* SmartSenseDemoCode.h */,
+				F588DE841E1FB94900E99764 /* Info.plist */,
+				F588DF4E1E1FBF9800E99764 /* WebServiceManager.swift */,
+				F588DF4F1E1FBF9800E99764 /* Utility.swift */,
+				F575E5251E1FD1EC000987E0 /* MBProgressHUD */,
+				F588DF521E1FC18500E99764 /* AFNetworking */,
+			);
+			path = SmartSenseDemoCode;
+			sourceTree = "<group>";
+		};
+		F588DF521E1FC18500E99764 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				F588DF531E1FC18500E99764 /* AFHTTPSessionManager.h */,
+				F588DF541E1FC18500E99764 /* AFHTTPSessionManager.m */,
+				F588DF551E1FC18500E99764 /* AFNetworking.h */,
+				F588DF561E1FC18500E99764 /* AFNetworkReachabilityManager.h */,
+				F588DF571E1FC18500E99764 /* AFNetworkReachabilityManager.m */,
+				F588DF581E1FC18500E99764 /* AFSecurityPolicy.h */,
+				F588DF591E1FC18500E99764 /* AFSecurityPolicy.m */,
+				F588DF5A1E1FC18500E99764 /* AFURLRequestSerialization.h */,
+				F588DF5B1E1FC18500E99764 /* AFURLRequestSerialization.m */,
+				F588DF5C1E1FC18500E99764 /* AFURLResponseSerialization.h */,
+				F588DF5D1E1FC18500E99764 /* AFURLResponseSerialization.m */,
+				F588DF5E1E1FC18500E99764 /* AFURLSessionManager.h */,
+				F588DF5F1E1FC18500E99764 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F588DE7D1E1FB94900E99764 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F588DF671E1FC18500E99764 /* AFURLRequestSerialization.h in Headers */,
+				F588DF601E1FC18500E99764 /* AFHTTPSessionManager.h in Headers */,
+				F575E5281E1FD1F3000987E0 /* MBProgressHUD.h in Headers */,
+				F588DF651E1FC18500E99764 /* AFSecurityPolicy.h in Headers */,
+				F588DF631E1FC18500E99764 /* AFNetworkReachabilityManager.h in Headers */,
+				F588DF6B1E1FC18500E99764 /* AFURLSessionManager.h in Headers */,
+				F588DF691E1FC18500E99764 /* AFURLResponseSerialization.h in Headers */,
+				F588DE851E1FB94900E99764 /* SmartSenseDemoCode.h in Headers */,
+				F588DF621E1FC18500E99764 /* AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F588DE7F1E1FB94900E99764 /* SmartSenseDemoCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F588DE881E1FB94900E99764 /* Build configuration list for PBXNativeTarget "SmartSenseDemoCode" */;
+			buildPhases = (
+				F588DE7B1E1FB94900E99764 /* Sources */,
+				F588DE7C1E1FB94900E99764 /* Frameworks */,
+				F588DE7D1E1FB94900E99764 /* Headers */,
+				F588DE7E1E1FB94900E99764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartSenseDemoCode;
+			productName = SmartSenseDemoCode;
+			productReference = F588DE801E1FB94900E99764 /* SmartSenseDemoCode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F588DE771E1FB94900E99764 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = smartSense;
+				TargetAttributes = {
+					F588DE7F1E1FB94900E99764 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F588DE7A1E1FB94900E99764 /* Build configuration list for PBXProject "SmartSenseDemoCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F588DE761E1FB94900E99764;
+			productRefGroup = F588DE811E1FB94900E99764 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F588DE7F1E1FB94900E99764 /* SmartSenseDemoCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F588DE7E1E1FB94900E99764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F588DE7B1E1FB94900E99764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F588DF611E1FC18500E99764 /* AFHTTPSessionManager.m in Sources */,
+				F588DF6C1E1FC18500E99764 /* AFURLSessionManager.m in Sources */,
+				F588DF661E1FC18500E99764 /* AFSecurityPolicy.m in Sources */,
+				F588DF511E1FBF9800E99764 /* Utility.swift in Sources */,
+				F588DF681E1FC18500E99764 /* AFURLRequestSerialization.m in Sources */,
+				F588DF641E1FC18500E99764 /* AFNetworkReachabilityManager.m in Sources */,
+				F575E5291E1FD1F3000987E0 /* MBProgressHUD.m in Sources */,
+				F588DF6A1E1FC18500E99764 /* AFURLResponseSerialization.m in Sources */,
+				F588DF501E1FBF9800E99764 /* WebServiceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F588DE861E1FB94900E99764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F588DE871E1FB94900E99764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F588DE891E1FB94900E99764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = SmartSenseDemoCode/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SmartSenseDemoCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/SmartSenseDemoCode.h";
+			};
+			name = Debug;
+		};
+		F588DE8A1E1FB94900E99764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = SmartSenseDemoCode/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SmartSenseDemoCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/SmartSenseDemoCode.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F588DE7A1E1FB94900E99764 /* Build configuration list for PBXProject "SmartSenseDemoCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F588DE861E1FB94900E99764 /* Debug */,
+				F588DE871E1FB94900E99764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F588DE881E1FB94900E99764 /* Build configuration list for PBXNativeTarget "SmartSenseDemoCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F588DE891E1FB94900E99764 /* Debug */,
+				F588DE8A1E1FB94900E99764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F588DE771E1FB94900E99764 /* Project object */;
+}
